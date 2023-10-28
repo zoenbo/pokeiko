@@ -726,10 +726,10 @@ $(document)[_0x3cdaa3(0x115)](function() {
         'cache': ![],
         'success': function(_0x17e6f2) {
             previewRange = _0x17e6f2;
-            if (previewRange == '') previewRange = 0xa;
+            if (previewRange == '') previewRange = 0x64;
         },
         'error': function(_0x1ca6af, _0xf64ee8, _0x5a763b) {
-            previewRange = 0xa;
+            previewRange = 0x64;
         }
     }),
     checkPreview(parseInt(document[_0x322207(0x15b)](_0x322207(0xa8))[_0x322207(0x15a)])) == ![] && jump(0x0);
