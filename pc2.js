@@ -414,7 +414,7 @@ function checkPreview(_0x22f8c5) {
     var _0x1b740e = _0x3cdaa3;
     if (!isPreview) return !! [];
     typeof _0x22f8c5 == _0x1b740e(0x8d) && (_0x22f8c5 = nowPage);
-    if (_0x22f8c5 > Math['ceil'](bookData[_0x1b740e(0x11f)] * previewRange / 0x64)) return alert(_0x1b740e(0xd9) + previewRange + _0x1b740e(0x1c6)),
+    if (_0x22f8c5 > Math['ceil'](bookData[_0x1b740e(0x11f)] * previewRange / 0x1)) return alert(_0x1b740e(0xd9) + previewRange + _0x1b740e(0x1c6)),
     setTimeout(function() {
         goToNowPage();
     },
