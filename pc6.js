@@ -2,7 +2,7 @@ var ua = navigator["userAgent"]["toLowerCase"](),
     isAndroid = ua['indexOf']('android') > 0 ? true : false,
     isIOS = ua["indexOf"]('ipad') > 0 ? true : ua["indexOf"]("iphone") > 0 ? true : false,
     isNotPC = isAndroid || isIOS,
-    previewRange = 10,
+    previewRange = 100,
     intBrowserW = 0,
     intBrowserH = 0,
     pageDirection = 'left',
@@ -402,8 +402,8 @@ function checkPreview(_0x22f8c5) {
   return true;
   typeof _0x22f8c5 == "undefined" && (_0x22f8c5 = nowPage);
 
-  if (_0x22f8c5 > Math['ceil'](bookData["pageCount"] * previewRange / 100)) {
-    alert("提供前 " + previewRange + "% 內容完整，謝謝！");
+  if (_0x22f8c5 > Math['ceil'](bookData["pageCount"] * previewRange / 1)) {
+    alert("為POKEI提供 " + previewRange + "% 完整內容，謝謝！");
     setTimeout(function () {
       goToNowPage();
     }, 500);
